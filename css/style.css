@@ -1,0 +1,133 @@
+header{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.inline-block{
+    display:inline-block;
+    vertical-align: top;
+    padding-right:30px;
+}
+
+.logo{
+    width:10%;
+    text-align: center;
+}
+
+nav{
+    width:85%;
+}
+
+ul{
+    display:flex;
+    flex-wrap: nowrap;
+    width:20%;
+    margin-left: auto;
+}
+
+h1{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 60px;
+    text-align:center;
+}
+
+h2{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 40px;
+}
+
+.aboutMe{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aboutText{
+    padding-left:50px;
+    width:50%;
+}
+
+.aboutText p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:22px;
+}
+
+.aboutPhoto{
+    padding-right:50px;
+}
+
+section h2{
+    text-align:center;
+}
+
+h3{
+    font-family: 'Arima Madurai', cursive;
+    font-size:28px;
+}
+
+.skills{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align:center;
+}
+
+.skills p{
+    font-family: 'Source Sans pro', sans-serif;
+    font-size: 22px;
+}
+
+.skill1{
+    width:30%;
+}
+
+.skill2{
+    width:30%;
+}
+
+.skill3{
+    width: 30%;
+}
+
+.contact{
+    padding-left:50px;
+    padding-bottom:50px;
+}
+
+.contact p{
+    font-family: 'Source Sans pro', sans-serif;
+    font-size: 22px;
+}
+
+
+footer{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-align:center;
+}
+
+@media only screen and (max-width: 600px){
+
+    .aboutMe{
+        flex-direction: column;
+    }
+
+    .aboutText{
+        width: 100%;
+    }
+
+    .skills{
+        flex-direction: column;
+    }
+
+    .skill1{
+        width:100%;
+    }
+    
+    .skill2{
+        width:100%;
+    }
+    
+    .skill3{
+        width: 100%;
+    }
+}
